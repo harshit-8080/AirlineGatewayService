@@ -1,0 +1,29 @@
+{
+  "name": "AirlineGatewayService",
+  "version": "1.0.0",
+  "description": "Setting up http-proxy-middleware for Airline Booking",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-8080/AirlineGatewayService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-8080/AirlineGatewayService/issues"
+  },
+  "homepage": "https://github.com/harshit-8080/AirlineGatewayService#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0"
+  }
+}
