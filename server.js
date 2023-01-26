@@ -13,6 +13,12 @@ const limiter = rateLimit({
   max: 100, // Limit each IP to 100 requests per `window` (here, per 5 minutes)
 });
 
+app.get("/home", (req, res) => {
+  return res.json({
+    response: "success",
+  });
+});
+
 const setAndStartServer = () => {
   app.use(morgan("combined"));
   app.use(limiter);
